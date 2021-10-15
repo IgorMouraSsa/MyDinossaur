@@ -8,9 +8,9 @@ let position = 0;
 function handleKeyUp(e){
   if (e.keyCode === 32) {
     if(!isJump){
-      jump(); 
+      jump() ;  
     }
-  }
+  } 
 }
 
 function jump() {
